@@ -19,7 +19,11 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
+<<<<<<< HEAD
       home: const spalsh_screen(),
+=======
+      home: const login_screen(),
+>>>>>>> ce047ab (Initial commit)
     );
   }
 }
