@@ -2,6 +2,7 @@ import 'package:cubesharp/Screens/Login_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:cubesharp/component/Button.dart';
 import 'package:cubesharp/component/TextField.dart';
+import 'package:cubesharp/component/TextFiled_signup.dart';
 class sign_up extends StatefulWidget {
   const sign_up({super.key});
 
@@ -63,7 +64,7 @@ class _sign_upState extends State<sign_up> {
                 ),
 
                 const SizedBox(height: 25),
-                MyTextField(
+                MyTextField2(
                   controller: nameController,
                   hintText: 'Name',
                   obscureText: false,
@@ -72,7 +73,7 @@ class _sign_upState extends State<sign_up> {
                   height: 10,
                 ),
                 // username textfield
-                MyTextField(
+                MyTextField2(
                   controller: usernameController,
                   hintText: 'Username',
                   obscureText: false,
